@@ -1,0 +1,312 @@
+/*.........GERAL..........*/
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: arial, verdana, helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #F47D55;
+}
+
+#conteudo a:hover {
+    text-decoration: underline;
+}
+
+acronym {
+    cursor: help;
+    border-bottom: 1px dashed #fff;
+}
+
+code {
+    color: #F47D55;
+    padding-bottom: 15px;
+    display: block;
+}
+
+p {
+    margin: 0 0 15px 0;
+    text-indent: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    display: none;
+}
+
+h2,
+h4 {
+    margin: 0 0 20px 10px;
+}
+
+#geral {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.background1 {
+    height: 1591px;
+    background: url("imgs/revolucao_back.jpg") no-repeat 100% 600px;
+}
+
+.background2 {
+    height: 210px;
+    background: url("imgs/topo.jpg") no-repeat top center;
+}
+
+#conteudo,
+.navegacao {
+    margin-top: 245px;
+}
+
+.navegacao {
+    float: right;
+    width: 165px;
+    font-size: 12px;
+}
+
+.navegacao .escolha {
+    margin-top: 50px;
+}
+
+#conteudo {
+    float: left;
+    width: 545px;
+    text-align: justify;
+    padding-left: 40px;
+    font: 12px/150% arial, verdana, helvetica, sans-serif;
+}
+
+#conteudo h2 {
+    font-size: 20px;
+}
+
+#conteudo h4 {
+    color: #FFCC00;
+}
+
+#conteudo dl {
+    margin-bottom: 15px;
+}
+
+#conteudo dt {
+    color: #FFCC00;
+}
+
+#conteudo dd {
+    font-style: italic;
+}
+
+#conteudo q {
+    background: url("imgs/abre_aspas.gif") no-repeat top left;
+    padding: 20px 50px;
+    text-align: center;
+    color: #F47D55;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#conteudo cite {
+    background: url("imgs/fecha_aspas.gif") no-repeat bottom right;
+    padding: 0 10px 20px 50px;
+    float: right;
+    text-align: right;
+    font-style: italic;
+}
+
+/*....... INTRODU��O........*/
+.intro h2 {
+    background: url(imgs/introducao.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -99999px;
+}
+
+/*........INSPIRA��O.......*/
+.inspiracao h2 {
+    background: url(imgs/inspiracao.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+/*....... COMO FA�O PARA PUBLICAR?........*/
+.tit1 {
+    background: url(imgs/publicar.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+.tit2 {
+    color: #F47D55;
+    font-size: 18px;
+}
+
+.publicar ol {
+    margin-bottom: 15px;
+    list-style: inside decimal;
+}
+
+/*....... SEJA CRIATIVO........*/
+.criativo h2 {
+    background: url(imgs/seja_criativo.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+/*....... VALIDA��O........*/
+.validacao h2 {
+    background: url(imgs/sobre_validacao.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+.validacao ul {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*....... TABLE GALLERY........*/
+.table_gallery h2 {
+    background: url(imgs/table.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+#tabela {
+    background-color: #6F2106;
+    margin: 0 15px 15px;
+    border: 3px solid #5C1C05;
+}
+
+#tabela caption {
+    display: none;
+}
+
+#tabela th {
+    padding: 0 30px;
+    background-color: #5C1C05;
+    color: #FFCC00;
+}
+
+#tabela td {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+#tabela th,
+#tabela td {
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+    font: 12px "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+
+#tabela td[colspan] {
+    text-align: left;
+    padding: 0 10px;
+}
+
+#tabela tfoot th {
+    text-align: right;
+    padding: 0 10px;
+}
+
+/*....... SUBMITION......*/
+.submition fieldset {
+    border: 0;
+}
+
+.submition legend {
+    color: #fc0;
+}
+
+.campo_bloco {
+    font: 12px "trebuchet ms", verdana, arial, helvetica, sans-serif;
+    float: left;
+}
+
+.campo_bloco label {
+    display: block;
+    float: left;
+    width: 164px;
+    height: 16px;
+    background: #5C1C05 url("imgs/label.gif") no-repeat 0 -3px;
+    text-align: right;
+    padding: 3px;
+    margin: 1px 5px;
+    cursor: pointer;
+}
+
+.campo_bloco input:focus,
+.campo_bloco textarea:focus {
+    background-color: #f0f0f0;
+}
+
+.campo_bloco .botao {
+    margin: 5px 0 15px 180px;
+    background-color: #5C1C05;
+    color: #FFCC00;
+    width: 100px;
+    height: 20px;
+    border: 0;
+}
+
+/*....... LICENSA........*/
+.licenca h2 {
+    background: url(imgs/licenca.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+/*....... RODAP�........*/
+.rodape h2 {
+    background: url(imgs/validacoes.gif) no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -999999px;
+}
+
+.rodape ul {
+    text-align: center;
+}
+
+.rodape ul li {
+    display: inline;
+    padding: 0 11px;
+}
+
+.rodape address {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*........MENU........*/
+.menu {
+    background: url("imgs/menu.gif") no-repeat;
+    width: 100%;
+    height: 24px;
+    text-indent: -99999px;
+}
+
+.links a:hover,
+.template_list a:hover {
+    background-color: #F47D55;
+    color: #fff;
+}
